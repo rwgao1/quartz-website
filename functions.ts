@@ -3,6 +3,7 @@ import { Options } from "./quartz/components/ExplorerNode"
 const nameOrderMap: Record<string, [number, string]> = {
     "index": [0, "🏠"],
     "CV": [100, "📄"],
+    "Research": [101, "👨‍🔬"],
 
     "Projects": [200, "📁"],
     "Projects/kan_tt_graphsage": [201, "🕸️"],
@@ -10,9 +11,9 @@ const nameOrderMap: Record<string, [number, string]> = {
     "Projects/microcylinder": [203, "🛋️"],
     "Projects/3d_wfc": [204, "📦"],
     
-    "Research": [300, "👨‍🔬"],
     "Misc": [400, "💽"],
-    "Misc/Succulents": [401, "🌵"],
+    "Misc/Piano": [401, "🎹"],
+    "Misc/Succulents": [402, "🌵"],
 }
 
 

@@ -142,6 +142,7 @@ export default ((userOpts?: Partial<Options>) => {
         </button>
         <div id="explorer-content">
           <ul class="overflow" id="explorer-ul">
+            <li><a href="/" data-for="/">{"🏡 Home"}</a></li>
             <ExplorerNode node={fileTree} opts={opts} fileData={fileData} />
             <li id="explorer-end" />
           </ul>

@@ -9,9 +9,16 @@ body[data-slug="index" ] {
     }
 }
 
-// body[data-slug="index" ] {
+body[data-slug="CV" ] {
+  // Rules inside here are applied to the root index page only
+  .content-meta {
+    display: none;
+  }
+} 
+
+// body[data-slug="Projects/kan_tt_graphsage" ] {
 //   // Rules inside here are applied to the root index page only
 //   .content-meta {
 //     display: none;
 //   }
-// } 
+// }

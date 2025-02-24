@@ -23,7 +23,9 @@ interface MacroType {
 
 export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
   const engine = opts?.renderEngine ?? "katex"
-  const macros = opts?.customMacros ?? {}
+  const macros = opts?.customMacros ?? {
+    // Add custom macros here; refer to this site https://katex.org/docs/options.html
+  }
   return {
     name: "Latex",
     markdownPlugins() {
