@@ -19,3 +19,7 @@ Feel free to connect with me:
 - [Email](mailto:richard_gao@brown.edu)
 - [LinkedIn](https://www.linkedin.com/in/richard-gao-98490a1ba/)
 - [GitHub](https://github.com/boopa5)
+
+\
+_Places people have accessed my site from:_
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=080808&w=a&t=tt&d=EZ2lc8AhS0JpsWOGgVPex6jMHMIJn9SUAMHO3owPrk4&co=faf8f8&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
