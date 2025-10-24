@@ -9,16 +9,16 @@ title: 👋 Welcome
 <img src="./files/pfp.jpg" alt="pfp" width="20%"  style="border-radius:1000px; max-width:110px; min-width:75px"/>
 </center> 
  
-I'm an incoming student at [Brown University](https://cs.brown.edu/), pursuing an M.S. in Computer Science. Previously, I graduated from [UCSB](https://www.cs.ucsb.edu/) with a B.S. in Computer Science, advised by Prof. Zheng Zhang. My [research](./Research.md) interests lie in [efficient](./tags/efficient-ml) machine learning. Specifically, I aim to build smaller models by exploring low-rank structure.
+I'm a CS Master's student at [Brown University](https://cs.brown.edu/). I got my Bachelor's in CS from [UCSB](https://www.cs.ucsb.edu/) in 2024, advised by Prof. [Zheng Zhang](https://web.ece.ucsb.edu/~zhengzhang/). My [research](./Research.md) interests lie in hierarchical RL and RL abstraction. Previously, I worked on [efficient](./tags/efficient-ml) machine learning.
 ‍\
 \
-When I'm not coding, I enjoy playing [piano](./Misc/Piano.md), tending to my [succulents](./Misc/Succulents.md), and playing basketball.
+When I'm not studying, I enjoy playing [piano](./Misc/Piano.md), tending to my [succulents](./Misc/Succulents.md), and playing basketball.
 \
 \
-Feel free to connect with me:
+Feel free to connect:
 - [Email](mailto:richard_gao@brown.edu)
 - [LinkedIn](https://www.linkedin.com/in/richard-gao-98490a1ba/)
-- [GitHub](https://github.com/boopa5)
+- [GitHub](https://github.com/rwgao1)
 
 \
 _Places people have accessed my site from:_
