@@ -2,17 +2,16 @@
 title: 👋 Welcome
 ---
 
-<!-- pfp -->
-<!-- ![pfp](./files/pfp.jpg) -->
+
 <br>
 <center>
-<img src="./files/pfp.jpg" alt="pfp" width="20%"  style="border-radius:1000px; max-width:110px; min-width:75px"/>
+<img src="./files/pfp2.png" alt="pfp" width="18%"  style="border-radius:1000px; max-width:110px; min-width:75px"/>
 </center> 
  
-I'm a CS Master's student at [Brown University](https://cs.brown.edu/). I got my Bachelor's in CS from [UCSB](https://www.cs.ucsb.edu/) in 2024, advised by Prof. [Zheng Zhang](https://web.ece.ucsb.edu/~zhengzhang/). My [research](./Research.md) interests lie in hierarchical RL and RL abstraction. Previously, I worked on [efficient](./tags/efficient-ml) machine learning.
+I'm currently a Master's student in CS at [Brown University](https://cs.brown.edu/) working with Prof. [George Konidaris](https://cs.brown.edu/people/gdk/) and Prof. [Randall Balestriero](https://randallbalestriero.github.io/). I previously graduated from [UCSB](https://www.cs.ucsb.edu/) in 2024, where I majored in CS and was advised by Prof. [Zheng Zhang](https://web.ece.ucsb.edu/~zhengzhang/). My current [research](./Research.md) interests lie in learning RL abstractions and world models for planning.
 ‍\
 \
-When I'm not studying, I enjoy playing [piano](./Misc/Piano.md), tending to my [succulents](./Misc/Succulents.md), and playing basketball.
+When I'm not studying, I enjoy playing [piano](./Misc/Piano.md), tending to my [succulents](./Misc/Succulents.md), and basketball.
 \
 \
 Feel free to connect:
