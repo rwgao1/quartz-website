@@ -108,6 +108,12 @@ a {
   }
 }
 
+a.logo-link {
+  .external-icon {
+    display: none;
+  }
+}
+
 .desktop-only {
   display: initial;
   @media all and ($mobile) {
