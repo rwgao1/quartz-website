@@ -5,7 +5,7 @@ title: Hello!
 
 <br>
 <center>
-<img src="./files/pfps/chi4.jpg" alt="pfp" width="20%"  style="border-radius:1000px; max-width:110px; min-width:75px"/>
+<img src="./files/pfps/chi4.png" alt="pfp" width="20%"  style="border-radius:1000px; max-width:110px; min-width:75px"/>
 </center> 
 
 
