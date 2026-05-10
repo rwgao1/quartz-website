@@ -8,6 +8,7 @@ title: Hello!
 <img src="./files/pfps/chi4.jpg" alt="pfp" width="20%"  style="border-radius:1000px; max-width:110px; min-width:75px"/>
 </center> 
 
+
 I'm currently a master's student in CS at [Brown University](https://cs.brown.edu/) working with Prof. [George Konidaris](https://cs.brown.edu/people/gdk/) and Prof. [Randall Balestriero](https://randallbalestriero.github.io/). My research interests lie in  *<ins>abstraction and model-based reinforcement learning</ins>*. I graduated from [UCSB](https://www.cs.ucsb.edu/) in 2024, where I studied CS and was advised by Prof. [Zheng Zhang](https://web.ece.ucsb.edu/~zhengzhang/). In a past life, I worked on zeroth-order optimization and tensor-compressed learning.
 
 <p align="center">

@@ -12,4 +12,4 @@ title: Research
 
 
 
-I'm interested in model-based reinforcement learning: enabling agents to plan with a learned model of the environment.
+I'm interested in model-based reinforcement learning: how can we enable agents to plan with a learned model of the environment?
