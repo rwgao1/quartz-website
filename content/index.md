@@ -13,6 +13,7 @@ I'm currently a master's student in CS at [Brown University](https://cs.brown.ed
 
 <p align="center">
   <a href="mailto:richard_gao@brown.edu">Email</a> /
+  <a href="https://scholar.google.com/citations?user=M11SUywAAAAJ&hl=en">Google Scholar</a> /
   <a href="https://www.linkedin.com/in/richard-gao-98490a1ba/">LinkedIn</a> /
   <a href="https://github.com/rwgao1">GitHub</a> /
   <a href="https://x.com/_rwgao">Twitter</a>
