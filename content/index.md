@@ -31,7 +31,7 @@ I'm currently a master's student in CS at [Brown University](https://cs.brown.ed
 
 ## News
 - **Feb. 2026**: Attended the [world modeling workshop](https://world-model-mila.github.io/) in Montreal.<br>
-    <img src="./files/image.png" width="25%" /> <br>
+    <!-- <img src="./files/image.png" width="25%" /> <br> -->
 - **Sep. 2025**: Started my master's at Brown.
 - **Dec. 2024**: Graduated from UCSB.
 ---
