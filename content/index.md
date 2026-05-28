@@ -5,7 +5,7 @@ title: Hello!
 
 <br>
 <center>
-<img src="./files/pfps/chi4.png" alt="pfp" width="20%"  style="border-radius:1000px; max-width:110px; min-width:75px"/>
+<img src="./files/pfps/newpfp.png" alt="pfp" width="25%"  style="border-radius:1000px; max-width:130px; min-width:75px"/>
 </center> 
 
 
@@ -34,6 +34,14 @@ I'm currently a master's student in CS at [Brown University](https://cs.brown.ed
     <!-- <img src="./files/image.png" width="25%" /> <br> -->
 - **Sep. 2025**: Started my master's at Brown.
 - **Dec. 2024**: Graduated from UCSB.
+---
+## Publications
+[stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation](https://arxiv.org/abs/2605.21800v1) \
+<span style="font-size:0.92em;">
+Lucas Maes, Quentin Le Lidec, Luiz Facury, Nassim Massaudi, Ayush Chaurasia, Francesco Capuano, <u><b>Richard Gao</b></u>, Taj Gillin, Dan Haramati, Damien Scieur, Yann LeCun, Randall Balestriero \
+Preprint, 2026
+</span>
+
 ---
 ## Misc.
 When I'm not working, I enjoy playing [piano](./Misc/Piano.md), tending to my [succulents](./Misc/Succulents.md), and basketball.
