@@ -7,5 +7,5 @@ title: CV
 
 <div>
 <br>
-<iframe width=100%, height=1000px src="./files/Richard_CV.pdf">
+<iframe width=100%, height=1000px src="./files/Richard_resume.pdf">
 </div>
