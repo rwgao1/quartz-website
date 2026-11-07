@@ -1,13 +1,26 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-import { mapFn, filterFn, sortFn } from "./functions.ts"
-
-
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [
+    Component.PageTitle(),
+    Component.HeaderNav({
+      links: [
+        { text: "Home", slug: "index" },
+        { text: "Publications", slug: "index", anchor: "publications" },
+        { text: "Misc", slug: "index", anchor: "misc" },
+        {
+          text: "CV",
+          href: "https://drive.google.com/file/d/1USeaNC8mC02B4dxpjs1qmiaFDprz7pkJ/view?usp=sharing",
+          newTab: true,
+          bold: true,
+        },
+      ],
+    }),
+    Component.Search(),
+  ],
   afterBody: [],
   footer: Component.Footer({
     links: {
@@ -25,37 +38,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.TagList(),
   ],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.Explorer({
-      mapFn: mapFn,
-      filterFn: filterFn,
-      sortFn: sortFn,
-    }),
-  ],
-  right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-  ],
+  left: [],
+  right: [Component.Backlinks()],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle()],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.Explorer({
-      mapFn: mapFn,
-      filterFn: filterFn,
-      sortFn: sortFn,
-    }),
-  ],
+  left: [],
   right: [],
 }

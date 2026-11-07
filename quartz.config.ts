@@ -10,7 +10,8 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Richard Gao",
     pageTitleSuffix: "",
-    enableSPA: true,
+    // The visitor map embed initializes on full page loads.
+    enableSPA: false,
     enablePopovers: true,
     analytics: {
       provider: 'google', 
@@ -22,11 +23,11 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
-      fontOrigin: "googleFonts",
+      fontOrigin: "local",
       cdnCaching: true,
       typography: {
-        header: "Domine",
-        body: "Noticia Text",
+        header: "Georgia",
+        body: "Georgia",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -36,10 +37,10 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          secondary: "#576b98",
+          tertiary: "#46567a",
+          highlight: "rgba(87, 107, 152, 0.15)",
+          textHighlight: "rgba(87, 107, 152, 0.3)",
         },
         darkMode: {
           light: "#121212", 
@@ -71,7 +72,7 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "shortest", externalLinkIcon: false }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],

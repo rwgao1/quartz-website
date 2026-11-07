@@ -1,24 +1,181 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
-// index-only version
-body[data-slug="index" ] {
-    // Rules inside here are applied to the root index page only
-    .content-meta {
-      display: none;
-    }
+html {
+  scroll-padding-top: var(--header-offset, 4.5rem);
 }
 
-body[data-slug="CV" ] {
-  // Rules inside here are applied to the root index page only
+// A centered reading column, with site-wide navigation above it.
+.page {
+  max-width: 1000px;
+
+  & > #quartz-body {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "grid-center"
+      "grid-sidebar-right"
+      "grid-footer";
+    gap: 0;
+    padding: 0 2rem;
+
+    & .page-header > header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: var(--light);
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: flex-start;
+      gap: 0.25rem 1rem;
+      margin-block: 2rem 0;
+      padding-block: 0.5rem;
+
+      & > .page-title {
+        flex: 0 0 auto;
+        margin-inline-end: auto;
+        font-size: 1.5rem;
+        line-height: 1.4;
+
+        & > a {
+          color: var(--dark);
+        }
+      }
+
+      & > .search {
+        flex: 0 0 auto;
+
+        & > .search-button {
+          width: auto;
+          height: 2rem;
+          background: none;
+          border-radius: 0;
+          color: var(--secondary);
+
+          & > p {
+            margin: 0;
+            padding: 0;
+            color: inherit;
+          }
+
+          & > svg {
+            display: none;
+          }
+
+          &:hover {
+            text-decoration: underline;
+            text-underline-offset: 0.2em;
+          }
+        }
+      }
+
+      & a:focus-visible,
+      & button:focus-visible {
+        outline: 2px solid var(--secondary);
+        outline-offset: 4px;
+      }
+    }
+
+    & > .sidebar.left {
+      display: none;
+    }
+
+    & > .center {
+      grid-area: grid-center;
+    }
+
+    & .page-header {
+      // Let the header stick within the article column, past this short wrapper.
+      display: contents;
+    }
+
+    & > .center,
+    & > .sidebar.right,
+    & > footer {
+      width: 100%;
+      max-width: 800px;
+      min-width: 0;
+      margin-inline: auto;
+      box-sizing: border-box;
+    }
+
+    // Keep page context available below the article instead of in a sidebar.
+    & > .sidebar.right {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      align-items: start;
+      gap: 2rem;
+      position: static;
+      height: auto;
+      padding: 1.5rem 0;
+
+      &:empty {
+        display: none;
+      }
+    }
+
+    @media all and ($mobile) {
+      padding: 0 1rem;
+
+      & .page-header > header {
+        column-gap: 0.875rem;
+        margin-block: 1rem 0;
+
+        & > .page-title {
+          flex-basis: 100%;
+        }
+      }
+    }
+  }
+}
+
+body[data-slug="index"] .article-title {
+  display: none;
+}
+
+body[data-slug="index"] .center > article {
+  & > h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  & > h2 + hr {
+    margin: 0.5rem 0 1rem;
+  }
+}
+
+// Present news as compact text lines while keeping the Markdown list.
+body[data-slug="index"] #news + hr + ul {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+
+  & time {
+    font-weight: 700;
+    white-space: nowrap;
+  }
+}
+
+// Compact publication entries with resource links below the venue.
+body[data-slug="index"] .publication-entry {
+  & p {
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  & .publication-authors,
+  & .publication-venue,
+  & .publication-links {
+    font-size: 0.92em;
+  }
+
+  & strong {
+    font-weight: 700;
+  }
+}
+
+body[data-slug="index"],
+body[data-slug="CV"] {
   .content-meta {
     display: none;
   }
-} 
-
-// body[data-slug="Projects/kan_tt_graphsage" ] {
-//   // Rules inside here are applied to the root index page only
-//   .content-meta {
-//     display: none;
-//   }
-// }
+}
