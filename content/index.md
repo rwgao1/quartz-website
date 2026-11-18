@@ -46,6 +46,13 @@ Right now, I'm interested in *model-based reinforcement learning and state abstr
 ---
 
 <div class="publication-entry">
+  <p class="publication-title"><strong>stable-envs-v1: Fast and Reproducible Environments with Controllable Variations</strong></p>
+  <p class="publication-authors">Sami BuGhanem, Francesco Capuano, Ahitagni Das, <strong>Richard Gao</strong>, <a href="https://randallbalestriero.github.io/">Randall Balestriero</a></p>
+  <p class="publication-venue"><em>arXiv preprint</em>, 2026</p>
+  <p class="publication-links" aria-label="Paper resources"><a href="https://arxiv.org/abs/2611.23151" target="_blank" rel="noopener noreferrer">arXiv</a> / <a href="https://arxiv.org/pdf/2611.23151" target="_blank" rel="noopener noreferrer">pdf</a> / <a href="https://github.com/galilai-group/stable-envs" target="_blank" rel="noopener noreferrer">code</a></p>
+</div>
+
+<div class="publication-entry">
   <p class="publication-title"><strong>stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation</strong></p>
   <p class="publication-authors"><a href="https://lucasmaes.bearblog.dev/">Lucas Maes</a>, <a href="https://quentinll.github.io/">Quentin Le Lidec</a>, Luiz Facury, Nassim Massaudi, Ayush Chaurasia, Francesco Capuano, <strong>Richard Gao</strong>, Taj Gillin, <a href="https://danhrmti.github.io/">Dan Haramati</a>, Damien Scieur, <a href="https://yann.lecun.com/">Yann LeCun</a>, <a href="https://randallbalestriero.github.io/">Randall Balestriero</a></p>
   <p class="publication-venue"><em>NeurIPS Evaluations and Datasets Track</em>, 2026</p>

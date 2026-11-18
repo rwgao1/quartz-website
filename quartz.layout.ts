@@ -13,7 +13,7 @@ export const sharedPageComponents: SharedLayout = {
         { text: "Misc", slug: "index", anchor: "misc" },
         {
           text: "CV",
-          href: "https://drive.google.com/file/d/1USeaNC8mC02B4dxpjs1qmiaFDprz7pkJ/view?usp=sharing",
+          href: "/files/Richard_resume.pdf",
           newTab: true,
           bold: true,
         },

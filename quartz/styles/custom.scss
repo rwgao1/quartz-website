@@ -157,6 +157,10 @@ body[data-slug="index"] #news + hr + ul {
 
 // Compact publication entries with resource links below the venue.
 body[data-slug="index"] .publication-entry {
+  & + .publication-entry {
+    margin-top: 1.25rem;
+  }
+
   & p {
     margin: 0;
     line-height: 1.5;
