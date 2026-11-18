@@ -49,7 +49,7 @@ Right now, I'm interested in *model-based reinforcement learning and state abstr
   <p class="publication-title"><strong>stable-envs-v1: Fast and Reproducible Environments with Controllable Variations</strong></p>
   <p class="publication-authors">Sami BuGhanem, Francesco Capuano, Ahitagni Das, <strong>Richard Gao</strong>, <a href="https://randallbalestriero.github.io/">Randall Balestriero</a></p>
   <p class="publication-venue"><em>arXiv preprint</em>, 2026</p>
-  <p class="publication-links" aria-label="Paper resources"><a href="https://arxiv.org/abs/2611.23151" target="_blank" rel="noopener noreferrer">arXiv</a> / <a href="https://arxiv.org/pdf/2611.23151" target="_blank" rel="noopener noreferrer">pdf</a> / <a href="https://github.com/galilai-group/stable-envs" target="_blank" rel="noopener noreferrer">code</a></p>
+  <p class="publication-links" aria-label="Paper resources"><a href="https://arxiv.org/abs/2611.23151" target="_blank" rel="noopener noreferrer">arXiv</a> / <a href="https://arxiv.org/pdf/2611.23151" target="_blank" rel="noopener noreferrer">pdf</a> / <a href="https://github.com/galilai-group/stable-envs" target="_blank" rel="noopener noreferrer">code</a> / <a href="https://arxiv.org/bibtex/2611.23151" target="_blank" rel="noopener noreferrer">bibtex</a></p>
 </div>
 
 <div class="publication-entry">
