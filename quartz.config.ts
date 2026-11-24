@@ -26,8 +26,8 @@ const config: QuartzConfig = {
       fontOrigin: "local",
       cdnCaching: true,
       typography: {
-        header: "Georgia",
-        body: "Georgia",
+        header: "Palatino Linotype",
+        body: "Palatino Linotype",
         code: "IBM Plex Mono",
       },
       colors: {
