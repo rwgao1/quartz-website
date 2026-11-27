@@ -66,4 +66,4 @@ Right now, I'm interested in *model-based reinforcement learning and state abstr
 Outside of research, I enjoy playing [piano](./Misc/Piano.md), tending to my [succulents](./Misc/Succulents.md), and basketball.
 
 _Places others (and you!) have accessed my site from:_
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=080808&w=a&t=tt&d=EZ2lc8AhS0JpsWOGgVPex6jMHMIJn9SUAMHO3owPrk4&co=faf8f8&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=080808&w=a&t=tt&d=EZ2lc8AhS0JpsWOGgVPex6jMHMIJn9SUAMHO3owPrk4&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
